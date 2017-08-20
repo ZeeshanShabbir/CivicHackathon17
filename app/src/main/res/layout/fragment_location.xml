@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_islamabad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#dadada"
+            android:padding="20dp"
+            android:text="ISLAMBAD"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_rawalpindi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#dadada"
+            android:padding="20dp"
+            android:text="RAWALPINDI"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</layout>
